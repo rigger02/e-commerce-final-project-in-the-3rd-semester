@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #343A40;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.background {
+  position: relative;
+  width: 100%;
+  height: 93vh;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  width: 90%;
+  height: 85%;
+  margin: 5% 5% 0 5%;
+  border-radius: 22px;
+  background: #ccd2c6;
+}
+
+.word1 {
+  position: absolute;
+  width: 213px;
+  height: 30px;
+  left: 108px;
+  top: 87px;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  color: #343A40;
+}
+
+.word2 {
+  position: absolute;
+  width: 350px;
+  height: 114px;
+  left: 108px;
+  top: 125px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 38px;
+  line-height: 57px;
+  display: flex;
+  align-items: center;
+  color: #343A40;
+}
+
+.word3 {
+  position: absolute;
+  width: 280px;
+  height: 27px;
+  left: 108px;
+  top: 245px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 27px;
+
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  color: #343A40;
+}
+
+.word4 {
+  position: absolute;
+  width: 280px;
+  height: 24px;
+  left: 108px;
+  top: 280px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  color: #343A40;
+}
+
+div .button1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 25px;
+  gap: 10px;
+  position: absolute;
+  width: 100px;
+  height: 41px;
+  left: 108px;
+  top: 330px;
+  font-family: "Poppins";
+  background: #343A40;
+  color: #ccd2c6;
+  border: none;
+  border-radius: 11px;
+  cursor: pointer;
+}
+
+div .button1:hover{
+  background: #ccd2c6;
+  color: #343A40;
+  border: 4px solid #343A40;
+}
+
+div .button2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 25px;
+  gap: 10px;
+  position: absolute;
+  width: 100px;
+  height: 41px;
+  left: 239px;
+  top: 330px;
+  font-family: "Poppins";
+  background: #ccd2c6;
+  color: #343A40;
+  border: 4px solid #343A40;
+  border-radius: 11px;
+  cursor: pointer;
+}
+
+div .button2:hover{
+  background: #343A40;
+  color: #ccd2c6;
+}
+
+footer {
+  align-items: center;
+  text-align: center;
+  color: #ccd2c6;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 25px;
+}
